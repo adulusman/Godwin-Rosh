@@ -1400,6 +1400,48 @@ h3 {
     padding-bottom: 50px;
   }
 }
+/* team section */
+
+
+.block-38 {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.block-38:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.block-38-header img {
+  border-radius: 50%;
+  max-width: 120px;
+  height: auto;
+}
+
+.block-38-heading {
+  font-size: 1.25rem;
+  color: #333;
+  margin-top: 10px;
+}
+
+.block-38-subheading {
+  font-size: 1rem;
+  color: #777;
+}
+
+.block-38-body {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 15px;
+  line-height: 1.6;
+  text-align: center;
+}
+ /* team section end */
 
 /* line 12, ../../Arafath/CL/Cl November/221. Music/HTML/scss/_about.scss */
 .about_area .about_thumb {
