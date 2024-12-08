@@ -25,6 +25,11 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+img {
+  image-rendering: -webkit-optimize-contrast; /* WebKit */
+  image-rendering: crisp-edges; /* CSS4 Proposed */
+  image-rendering: pixelated; /* Fallback for older browsers */
+}
 
 /* line 12, ../../Arafath/CL/Cl November/221. Music/HTML/scss/theme-default.scss */
 .img {
